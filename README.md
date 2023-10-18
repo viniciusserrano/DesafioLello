@@ -43,7 +43,7 @@ Optei por utilizar o tipo Instant e timestamps para registrar o momento exato em
 Essa é uma prática comum em APIs e fornece informações precisas sobre as ações dos usuários.
 
 Testes Unitários com JUnit e Mockito:
-Desenvolvi testes unitários abrangentes usando as bibliotecas JUnit e Mockito. 
+Desenvolvi testes unitários abrangentes usando as bibliotecas JUnit e Mockito cobrindo 100% da classe de Serviço. 
 Através da função verify, assegurei que os métodos estão sendo utilizados corretamente, garantindo a qualidade do código e a funcionalidade correta.
 
 
