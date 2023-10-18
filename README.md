@@ -23,7 +23,7 @@ PUT
 
 ## Detalhes do projeto
 Arquitetura:
-O projeto segue uma arquitetura em camadas típica de aplicações Spring, com controladores (controllers), serviços (services), repositórios (repositories), DTOs (Data Transfer Objects) e entidades.
+O projeto segue uma arquitetura em camadas típica de aplicações Spring, com controladores (Resource), serviços (services), repositórios (repositories), DTOs (Data Transfer Objects) e entidades.
 
 Versionamento de Endpoints:
 Na classe de recursos (Resource), introduzi o conceito de versionamento de endpoints, como exemplificado em "usuarios/v1". 
