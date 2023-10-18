@@ -1,6 +1,6 @@
 # DesafioLello
 
-Criar um projeto em java utilizando o frameworkdo Spring Boot para realizar operações básicas de armazenamento e recuperação do dado como buscar(GET), gravar(POST) e atualizar(Update).
+Criar um projeto em java utilizando o framework Spring Boot para realizar operações básicas de armazenamento e recuperação do dado como buscar(GET), gravar(POST) e atualizar(Update).
 | 💾 Project | Vinicius Serrano    |
 | -------------  | --- |
 | :sparkles: Nome        | **DesafioLello BackEnd**
