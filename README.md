@@ -9,12 +9,16 @@ Criar um projeto em java utilizando o frameworkdo Spring Boot para realizar oper
 | :fire: Desafio     | Aplicação em Java com Spring que permite gerenciar informações de usuários por meio de uma API de serviço com operações de registro, busca, listagem paginada e atualização de dados de usuário. Inclui validações e testes unitários.
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
+GetPorPaginacao
 ![](getPaginacao.png#vitrinedev)
 <br>
+Get por ID
 ![](getPorId.png#vitrinedev)
 <br>
+POST
 ![](post.png#vitrinedev)
 <br>
+PUT
 ![](put.png#vitrinedev)
 
 ## Detalhes do projeto
