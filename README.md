@@ -31,7 +31,7 @@ Essa abordagem permite adicionar novos endpoints de forma estruturada no futuro.
 Caso seja necessário, podemos usar a anotação @Deprecated e herança para criar subclasses que estendam os endpoints existentes, proporcionando maior flexibilidade.
 
 Paginação para Listagem de Clientes:
-Implementei a funcionalidade de paginação ao buscar todos os clientes. Essa é uma prática importante, especialmente quando se lida com um grande volume de dados no banco de dados. 
+Implementei a funcionalidade de paginação ao buscar todos os clientes. Essa é uma prática importante e diferencial, especialmente quando se lida com um grande volume de dados no banco de dados. 
 A paginação ajuda a otimizar as requisições, melhorando o desempenho e a experiência do usuário.
 "/usuarios/v1/pageable?page=0&size=5"
 
