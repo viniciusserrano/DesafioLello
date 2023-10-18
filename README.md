@@ -29,7 +29,7 @@ Caso seja necessário, podemos usar a anotação @Deprecated e herança para cri
 Paginação para Listagem de Clientes:
 Implementei a funcionalidade de paginação ao buscar todos os clientes. Essa é uma prática importante, especialmente quando se lida com um grande volume de dados no banco de dados. 
 A paginação ajuda a otimizar as requisições, melhorando o desempenho e a experiência do usuário.
-"http://localhost:8080/usuarios/v1/pageable?page=0&size=5"
+"/usuarios/v1/pageable?page=0&size=5"
 
 Tratativas de Exceptions Personalizadas:
 Introduzi exceções personalizadas para lidar com erros de forma mais precisa. Isso garante que o cliente receba mensagens de erro claras e significativas, facilitando a depuração e o entendimento dos problemas.
