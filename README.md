@@ -26,9 +26,8 @@ Arquitetura:
 O projeto segue uma arquitetura em camadas típica de aplicações Spring, com controladores (Resource), serviços (services), repositórios (repositories), DTOs (Data Transfer Objects) e entidades.
 
 Versionamento de Endpoints:
-Na classe de recursos (Resource), introduzi o conceito de versionamento de endpoints, como exemplificado em "usuarios/v1". 
-Essa abordagem permite adicionar novos endpoints de forma estruturada no futuro. 
-Caso seja necessário, podemos usar a anotação @Deprecated e herança para criar subclasses que estendam os endpoints existentes, proporcionando maior flexibilidade.
+Na classe de recursos (Resource), introduzi o conceito de versionamento de endpoints, como exemplificado em 'usuarios/v1'. 
+Essa abordagem permite adicionar novos endpoints de forma estruturada no futuro, criando versões adicionais, como 'usuarios/v2', sem afetar a   funcionalidade das versões anteriores. Isso proporciona maior flexibilidade aos clientes, permitindo que eles escolham a versão apropriada de acordo com suas necessidades.
 
 Paginação para Listagem de Clientes:
 Implementei a funcionalidade de paginação ao buscar todos os clientes. Essa é uma prática importante e diferencial, especialmente quando se lida com um grande volume de dados no banco de dados. 
